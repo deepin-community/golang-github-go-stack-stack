@@ -1,0 +1,31 @@
+golang-github-go-stack-stack (1.8.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version 1.8.0 (Closes: #952164)
+  * Replace extra Priority to optional
+  * Update maintainer address to team+pkg-go@tracker.debian.org
+  * Bump debhelper compat to 12
+  * Bump Standards-Version to 4.5.0
+  * Add Rules-Requires-Root and Testsuite
+  * Remove golang-godebiancontrol-dev from Build-Depends
+
+ -- Shengjing Zhu <zhsj@debian.org>  Sun, 12 Apr 2020 17:25:42 +0800
+
+golang-github-go-stack-stack (1.5.2-3) UNRELEASED; urgency=medium
+
+  * Point Vcs-* urls to salsa.debian.org.
+
+ -- Alexandre Viau <aviau@debian.org>  Mon, 02 Apr 2018 17:23:51 -0400
+
+golang-github-go-stack-stack (1.5.2-2) unstable; urgency=medium
+
+  * Replace golang-go with golang-any in Build-Depends.
+  * Remove golang-go from Depends.
+
+ -- Alessio Treglia <alessio@debian.org>  Thu, 27 Oct 2016 11:07:03 +0100
+
+golang-github-go-stack-stack (1.5.2-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #838257)
+
+ -- Alessio Treglia <alessio@debian.org>  Sun, 18 Sep 2016 22:30:23 +0100
